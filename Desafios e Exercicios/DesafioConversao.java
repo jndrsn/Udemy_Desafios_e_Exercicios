@@ -11,16 +11,13 @@ public class DesafioConversao {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.println("Digite o primeiro salario do funcionario: ");
-		String x = entrada.nextLine();
-		String val1 = x.replace(",", ".");
+		String val1 = entrada.nextLine().replace(",", ".");
 		
 		System.out.println("Digite o segundo salario do funcionario: ");
-		String y = entrada.nextLine();
-		String val2 = y.replace(",", ".");
+		String val2 = entrada.nextLine().replace(",", ".");
 		
 		System.out.println("Digite o terceiro salario do funcionario: ");
-		String z = entrada.nextLine();
-		String val3 = z.replace(",",".");
+		String val3 = entrada.nextLine().replace(",", ".");
 		
 		double sal1 = Double.parseDouble(val1);
 		double sal2 = Double.parseDouble(val2);
